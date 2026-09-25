@@ -1,3 +1,3 @@
 # Flightgear-Embraer-E-Jets
 
-https://share.google/okMwIEWR0UTw8Gbm5
+https://derekverbrugge.github.io/Embraer-E-Jets-For-Flightgear/
