@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fuji Dream Airlines livery design for the FlightGear Embraer E-Jet.">
+  <title>Fuji Dream Airlines — FlightGear E-Jet</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #111315;
+      --panel: #191c20;
+      --text: #f2f4f5;
+      --muted: #aeb5bb;
+      --line: #30353a;
+      --link: #8fc7ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+      background: var(--bg);
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(100% - 2rem, 1200px);
+      margin: 0 auto;
+      padding: clamp(2rem, 6vw, 5rem) 0 2rem;
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      margin: 0 0 .35rem;
+      font-size: clamp(1.8rem, 5vw, 3rem);
+      line-height: 1.1;
+      font-weight: 650;
+      letter-spacing: -.02em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.15rem);
+    }
+
+    .artwork {
+      margin: 0;
+      padding: .5rem;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .artwork img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      border-radius: 7px;
+    }
+
+    .notes {
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    .notes h2 {
+      margin: 0 0 .45rem;
+      font-size: 1.1rem;
+    }
+
+    .notes p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--link);
+      text-underline-offset: 3px;
+    }
+
+    footer {
+      width: min(100% - 2rem, 1200px);
+      margin: 0 auto;
+      padding: 1.5rem 0 2rem;
+      color: var(--muted);
+      font-size: .9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        width: min(100% - 1rem, 1200px);
+        padding-top: 1.25rem;
+      }
+
+      .artwork {
+        padding: .25rem;
+        border-radius: 8px;
+      }
+
+      .notes {
+        padding: 1rem;
+        border-radius: 8px;
+      }
+
+      footer {
+        width: min(100% - 1rem, 1200px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Fuji Dream Airlines</h1>
+      <p class="subtitle">FlightGear Embraer E-Jet livery design</p>
+    </header>
+
+    <figure class="artwork">
+      <img src="kjNgFw5.png"
+           alt="Fuji Dream Airlines livery design for the FlightGear Embraer E-Jet"
+           loading="eager">
+    </figure>
+
+    <section class="notes" aria-labelledby="notes-heading">
+      <h2 id="notes-heading">Design notes</h2>
+      <p>
+        This design was developed for the FlightGear E-Jet. Discussion of the
+        model normals and related correction work is available in the
+        <a href="https://share.google/J5YcBuXjpMg1VqzLA"
+           target="_blank"
+           rel="noopener noreferrer">FlightGear forum discussion: “Correcting Normals on the E Jets”</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span id="year"></span> · FlightGear E-Jet design
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
