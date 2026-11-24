@@ -129,14 +129,14 @@
       }
     }
   </style>
-</head>
+<style>a,a:visited,a:hover,a:active,a:focus{text-decoration:none!important}body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}#site-footer{margin-top:auto}#site-header{display:contents}</style></head>
 
 <body>
   <main>
-    <header>
+    <div id="site-header"><header>
       <h1>Fuji Dream Airlines</h1>
       <p class="subtitle">FlightGear Embraer E-Jet livery designs</p>
-    </header>
+    </header></div>
 
     <figure class="artwork">
       <img src="kjNgFw5.png"
@@ -163,14 +163,14 @@
     </section>
   </main>
 
-  <footer>
-    <span id="year"></span> · <a href="https://www.derekverbrugge.com"
+  <div id="site-footer"><footer>
+    © <span id="year"></span> · <a href="https://www.derekverbrugge.com"
            target="_blank"
            rel="noopener noreferrer">DerekVerbrugge.com</a>.
-  </footer>
+  </footer></div>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
-</body>
+<script>Promise.all([["site-header","header.html"],["site-footer","footer.html"]].map(async ([id,path])=>{try{const r=await fetch(path);if(r.ok)document.getElementById(id).innerHTML=await r.text()}catch{}})).then(()=>{const y=document.getElementById("year");if(y)y.textContent=new Date().getFullYear()});</script></body>
 </html>
