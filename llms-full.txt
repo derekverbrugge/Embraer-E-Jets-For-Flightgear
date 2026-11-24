@@ -1,0 +1,14 @@
+# Embraer-E-Jets-For-Flightgear
+
+## FlightGear E-Jet Liveries
+Source: https://derekverbrugge.github.io/Embraer-E-Jets-For-Flightgear/
+
+Fuji Dream Airlines
+FlightGear Embraer E-Jet livery designs
+Design notes
+This design was developed for the FlightGear E-Jet
+here .
+Discussion of the model normals and related correction work is available in the FlightGear forum thread
+here .
+The Embraer E Jets are available on GitHub
+here .

@@ -1,0 +1,5 @@
+# Embraer-E-Jets-For-Flightgear
+
+- [FlightGear E-Jet Liveries](https://derekverbrugge.github.io/Embraer-E-Jets-For-Flightgear/)
+
+[Full text](https://derekverbrugge.github.io/Embraer-E-Jets-For-Flightgear/llms-full.txt)
